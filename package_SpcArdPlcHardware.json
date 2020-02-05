@@ -1,24 +1,27 @@
 {
-	"packages": [
-		{
-			"name": "SPECTRA ARDUINO PLC",
-			"maintainer": "SPECTRA ELECTRONICS",
-			"websiteURL": "https://spectra.xyz/",
-			"email": "hbendali@ya.ru",
-			"help": {
-				"online": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/issues"
-			},
+    "packages": [
+        {
+            "name": "SPECTRA ARDUINO PLC",
+            "maintainer": "SPECTRA ELECTRONICS",
+            "websiteURL": "https://spectra.xyz/",
+            "email": "hbendali@ya.ru",
+            "help": {
+                "online": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc",
+                "issues": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/issues",
+                "wiki": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/wiki"
+            },
             "platforms": [
                 {
                     "name": "SPECTRA ARDUINO PLC",
                     "architecture": "avr",
                     "version": "1.0.0",
                     "category": "Contributed",
-                    "url": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/raw/master/boards/spc_ard_plcHW.zip",
+                    "url": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/releases/download/1.0.0/spc_ard_plcHW.zip",
                     "archiveFileName": "spc_ard_plcHW.zip",
-                    "size": "52219",
                     "help": {
-                        "online": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/issues"
+                        "online": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc",
+                        "issues": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/issues",
+                        "wiki": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/wiki"
                     },
                     "boards": [
                         {
@@ -39,7 +42,7 @@
                     ]
                 }
             ],
-			"tools":[]
-		}
-	]
+            "tools": []
+        }
+    ]
 }

@@ -1,0 +1,9 @@
+name=SPECTRA Arduino PLC library
+version=1.0.0
+author=SPECTRA ELECTRONICS
+maintainer=Spectra Electronics <hbendali@ya.ru>
+sentence=Arduino library for A10 PLC
+paragraph=Arduino library for A10 PLC
+category=PLC
+url=https://github.com/SPECTRA-ELECTRONICS/arduino_plc
+architectures=avr
