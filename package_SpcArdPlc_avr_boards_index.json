@@ -16,30 +16,20 @@
                     "category": "Contributed",
                     "url": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/releases/download/1.0.0/spc_ard_plcHW.zip",
                     "archiveFileName": "spc_ard_plcHW.zip",
+                    "checksum": "SHA-256:08ad5db4978ebea22344edc5d77dce0923d8a644da7a14dc8072e883c76058d8",
                     "size":"52219",
                     "help": {
                         "online": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/wiki"
                     },
                     "boards": [
-                        {
-                            "name": "SPECTRA ARDUINO_PLC_A10"
-                        }
+                        {"name": "SPECTRA ARDUINO_PLC_A10"}
                     ],
                     "toolsDependencies": [
-                        {
-                            "packager": "arduino",
-                            "name": "avr-gcc",
-                            "version": "4.8.1-arduino5"
-                        },
-                        {
-                            "packager": "arduino",
-                            "name": "avrdude",
-                            "version": "6.0.1-arduino5"
-                        }
+                        {"packager": "arduino","name": "avr-gcc","version": "4.8.1-arduino5"},
+                        {"packager": "arduino","name": "avrdude","version": "6.0.1-arduino5"}
                     ]
                 }
-            ],
-            "tools": []
+            ]
         }
     ]
 }
