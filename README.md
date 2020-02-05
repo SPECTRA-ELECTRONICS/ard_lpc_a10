@@ -12,21 +12,20 @@
 * 2x Analog/Digital Inputs
 * 6x Digital Inputs
 
-
 ## Installation guide
-1- General requirements
+
+-General requirements
     * PC with Arduino IDE (1.6.4 or newer) (Windows, Linux, MAC)
     * Internet connection
-2- CONTROLLINO library
+-CONTROLLINO library
     * Start Arduino IDE, navigate to Sketch–>Include Library–>Manage Libraries
     * In the Library Manager type CONTROLLINO into the filter text box and search for CONTROLLINO library
     * When found, select the latest version and install it. The installation process should be fully automated
     * When finished - check in Sketch–>Include Library menu that you can see the CONTROLLINO library there
     * You can also check if you can see the set of CONTROLLINO examples in File->Examples->CONTROLLINO
-3- CONTROLLINO boards hardware definition
+-CONTROLLINO boards hardware definition
     * Navigate to File–>Preferences
-    * Copy-paste the following link to the Additional Boards Manager URLs:
-        https://raw.githubusercontent.com/CONTROLLINO-PLC/CONTROLLINO_Library/master/Boards/package_ControllinoHardware_index.json
+    * Copy-paste the following link to the Additional Boards Manager URLs: https://raw.githubusercontent.com/CONTROLLINO-PLC/CONTROLLINO_Library/master/Boards/package_ControllinoHardware_index.json
     * Press OK button
     * Then navigate to Tools–>Board: “Foo“–>Boards Manager
     * In the Boards Manager type CONTROLLINO into the filter text box and search for CONTROLLINO boards
