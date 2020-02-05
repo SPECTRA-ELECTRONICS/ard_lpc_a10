@@ -1,4 +1,4 @@
-# ARDUINO PLC
+# SPECTRA Arduino PLC
 
 ## A10
 
