@@ -15,8 +15,9 @@
                     "version": "1.0.0",
                     "category": "Contributed",
                     "url": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/releases/download/1.0.0/SPECTRA.Arduino.PLC.zip",
-                    "archiveFileName": "SPECTRA Arduino PLC.zip",
+                    "archiveFileName": "SPECTRA.Arduino.PLC.zip",
                     "checksum": "SHA-256:3326dce7c8c0cdb9f8f4e95c01684cb3115bf282dd92bdc1bc0e8d466a664be1",
+                    "size":"52219",
                     "help": {
                         "online": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/wiki"
                     },
