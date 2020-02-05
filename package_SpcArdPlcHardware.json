@@ -6,9 +6,7 @@
             "websiteURL": "https://spectra.xyz/",
             "email": "hbendali@ya.ru",
             "help": {
-                "online": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc",
-                "issues": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/issues",
-                "wiki": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/wiki"
+                "online": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/wiki"
             },
             "platforms": [
                 {
@@ -19,9 +17,7 @@
                     "url": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/releases/download/1.0.0/spc_ard_plcHW.zip",
                     "archiveFileName": "spc_ard_plcHW.zip",
                     "help": {
-                        "online": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc",
-                        "issues": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/issues",
-                        "wiki": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/wiki"
+                        "online": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/wiki"
                     },
                     "boards": [
                         {
