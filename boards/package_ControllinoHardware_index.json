@@ -1,0 +1,44 @@
+{
+	"packages": [
+		{
+			"name": "SPECTRA_ARDUINO_PLC",
+			"maintainer": "SPECTRA ELECTRONICS",
+			"websiteURL": "https://spectra.xyz/",
+			"email": "info@spectra.xyz",
+			"help": {
+				"online": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/issues"
+			},
+            "platforms": [
+                {
+                    "name": "SPECTRA ARDUINO PLC",
+                    "architecture": "avr",
+                    "version": "1.0.0",
+                    "category": "Contributed",
+                    "url": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/boards/spc_ard_plcHW.zip?rawtrue",
+                    "archiveFileName": "spc_ard_plcHW.zip",
+                    "checksum": "SHA-256:9aca351788e4d0a518af06d271702b2fd7cbcf9ed9a7b4577fb4201323207ec4",
+                    "size": "52194",
+                    "help": {
+                        "online": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/issues"
+                    },
+                    "boards": [
+                        { "name": "SPECTRA ARDUINO_PLC_A10" },
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "avr-gcc",
+                            "version": "4.8.1-arduino5"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "avrdude",
+                            "version": "6.0.1-arduino5"
+                        }
+                    ]
+                }
+            ],
+			"tools":[]
+		}
+	]
+}
