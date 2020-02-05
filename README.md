@@ -27,7 +27,7 @@
 
 - CONTROLLINO boards hardware definition
     * Navigate to File–>Preferences
-    * Copy-paste the following link to the Additional Boards Manager URLs: https://raw.githubusercontent.com/SPECTRA-ELECTRONICS/arduino_plc/master/package_SpcArdPlcHardware.json
+    * Copy-paste the following link to the Additional Boards Manager URLs: https://github.com/SPECTRA-ELECTRONICS/arduino_plc/raw/master/package_SpcArdPlc_avr_boards_index.json
     * Press OK button
     * Then navigate to Tools–>Board: “Foo“–>Boards Manager
     * In the Boards Manager type CONTROLLINO into the filter text box and search for CONTROLLINO boards
