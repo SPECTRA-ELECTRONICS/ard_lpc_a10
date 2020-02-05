@@ -16,7 +16,6 @@
                     "category": "Contributed",
                     "url": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/blob/master/boards/spc_ard_plcHW.zip?rawtrue",
                     "archiveFileName": "spc_ard_plcHW.zip",
-                    "checksum": "SHA-256:9aca351788e4d0a518af06d271702b2fd7cbcf9ed9a7b4577fb4201323207ec4",
                     "size": "52194",
                     "help": {
                         "online": "https://github.com/SPECTRA-ELECTRONICS/arduino_plc/issues"
