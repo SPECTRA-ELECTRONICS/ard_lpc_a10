@@ -16,15 +16,15 @@
 
 ### General requirements
 
-    * PC with Arduino IDE (1.6.4 or newer) (Windows, Linux, MAC)
-    * Internet connection
+* PC with Arduino IDE (1.6.4 or newer) (Windows, Linux, MAC)
+* Internet connection
 
 ### CONTROLLINO boards hardware definition
 
-    * Navigate to File–>Preferences
-    * Copy-paste the following link to the Additional Boards Manager URLs: https://github.com/SPECTRA-ELECTRONICS/arduino_plc/raw/master/package_SpcArdPlc_index.json
-    * Press OK button
-    * Then navigate to Tools–>Board: “Foo“–>Boards Manager
-    * In the Boards Manager type SPECTRA into the filter text box and search for SPECTRA ARDUINO PLC boards
-    * When found, select the latest version and install it. The installation process should be fully automated
-    * When finished - check in Tools–>Board: “Foo“–> menu that you can see the SPECTRA Ard PLC A10 w/ ATmega328 boards there
+* Navigate to File–>Preferences
+* Copy-paste the following link to the Additional Boards Manager URLs: https://github.com/SPECTRA-ELECTRONICS/arduino_plc/raw/master/package_SpcArdPlc_index.json
+* Press OK button
+* Then navigate to Tools–>Board: “Foo“–>Boards Manager
+* In the Boards Manager type SPECTRA into the filter text box and search for SPECTRA ARDUINO PLC boards
+* When found, select the latest version and install it. The installation process should be fully automated
+* When finished - check in Tools–>Board: “Foo“–> menu that you can see the SPECTRA Ard PLC A10 w/ ATmega328 boards there
