@@ -7,28 +7,29 @@
 #include "spc_ard_plc.h"
 #include <Wire.h> // for I2C components
 
-void SPC_ARD_PLC::SPC_ARD_PLC(int board){
+void SPC_ARD_PLC::SPC_ARD_PLC(){
   Wire.begin();
   Serial.begin(9600);
 
-  if (board == ARD_PLC_A10){
-    pinMode(RL1, OUTPUT);
-    pinMode(RL2, OUTPUT);
-    pinMode(RL3, OUTPUT);
-    pinMode(RL4, OUTPUT);
+#ifdef SPC_ARD_PLC_A10
+  pinMode(RL1, OUTPUT);
+  pinMode(RL2, OUTPUT);
+  pinMode(RL3, OUTPUT);
+  pinMode(RL4, OUTPUT);
 
-    pinMode(DI1, INPUT);
-    pinMode(DI2, INPUT);
-    pinMode(DI3, INPUT);
-    pinMode(DI4, INPUT);
-    pinMode(DI5, INPUT);
-    pinMode(DI6, INPUT);
+  pinMode(DI1, INPUT);
+  pinMode(DI2, INPUT);
+  pinMode(DI3, INPUT);
+  pinMode(DI4, INPUT);
+  pinMode(DI5, INPUT);
+  pinMode(DI6, INPUT);
 
-    pinMode(AN1, INPUT);
-    pinMode(AN2, INPUT);
+  pinMode(AN1, INPUT);
+  pinMode(AN2, INPUT);
 
-    pinMode(INT, INPUT);
-  }
+  pinMode(INT, INPUT);
+#endif
+
 }
 
 byte SPC_ARD_PLC::extRead(int i){

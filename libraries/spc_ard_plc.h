@@ -8,14 +8,13 @@
 
 #include "Arduino.h"
 
-#define ARD_PLC_A10 1
 #define _ON(pin)    digitalWrite(pin, HIGH)
 #define _OFF(pin)   digitalWrite(pin, LOW)
 
 class SPC_ARD_PLC
 {
   public:
-    void SPC_ARD_PLC(int board);
+    void SPC_ARD_PLC();
     
     byte extAdr[];
     byte extReg[];
