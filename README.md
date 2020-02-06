@@ -19,7 +19,7 @@
 * PC with Arduino IDE (1.6.4 or newer) (Windows, Linux, MAC)
 * Internet connection
 
-### CONTROLLINO boards hardware definition
+### Arduino A10 PLC hardware definition
 
 * Navigate to File–>Preferences
 * Copy-paste the following link to the Additional Boards Manager URLs: https://github.com/SPECTRA-ELECTRONICS/arduino_plc/raw/master/package_SpcArdPlc_index.json
