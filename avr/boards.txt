@@ -2,21 +2,27 @@
 
 ##############################################################
 
-ard_plc_a10.name=SPECTRA Ard PLC A10 w/ ATmega328
-ard_plc_a10.upload.protocol=arduino
-ard_plc_a10.upload.maximum_size=32256
-ard_plc_a10.upload.speed=115200
-ard_plc_a10.bootloader.low_fuses=0xff
-ard_plc_a10.bootloader.high_fuses=0xde
-ard_plc_a10.bootloader.extended_fuses=0xfd
-ard_plc_a10.bootloader.path=optiboot
-ard_plc_a10.bootloader.file=optiboot_atmega328.hex
-ard_plc_a10.bootloader.unlock_bits=0xff
-ard_plc_a10.bootloader.lock_bits=0xcf
-ard_plc_a10.build.board=SPC_ARD_PLC_A10
+ard_plc_a10.name=SPECTRA Ard PLC A10
+
 ard_plc_a10.build.mcu=atmega328p
 ard_plc_a10.build.f_cpu=16000000L
-ard_plc_a10.build.core=arduino
+ard_plc_a10.build.board=AVR_UNO
+ard_plc_a10.build.core=arduino:arduino
 ard_plc_a10.build.variant=ard_plc
+
+ard_plc_a10.bootloader.tool=avrdude
+ard_plc_a10.bootloader.low_fuses=0xFF
+ard_plc_a10.bootloader.high_fuses=0xDE
+ard_plc_a10.bootloader.extended_fuses=0xFD
+#ard_plc_a10.bootloader.extended_fuses=0x05
+ard_plc_a10.bootloader.unlock_bits=0x3F
+ard_plc_a10.bootloader.lock_bits=0x0F
+ard_plc_a10.bootloader.file=optiboot/Bootloader_CONTROLLINO_MINI.hex
+
+ard_plc_a10.upload.tool=avrdude
+ard_plc_a10.upload.protocol=arduino
+ard_plc_a10.upload.maximum_size=32256
+ard_plc_a10.upload.maximum_data_size=2048
+ard_plc_a10.upload.speed=115200
 
 ##############################################################
